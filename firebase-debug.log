@@ -1,0 +1,36 @@
+[debug] [2017-10-09T19:41:31.155Z] ----------------------------------------------------------------------
+[debug] [2017-10-09T19:41:31.158Z] Command:       /usr/local/bin/node /Users/zatl/Documents/GitHub/friendlypix-web/node_modules/.bin/firebase serve
+[debug] [2017-10-09T19:41:31.158Z] CLI Version:   3.13.1
+[debug] [2017-10-09T19:41:31.158Z] Platform:      darwin
+[debug] [2017-10-09T19:41:31.158Z] Node Version:  v6.11.4
+[debug] [2017-10-09T19:41:31.159Z] Time:          Mon Oct 09 2017 15:41:31 GMT-0400 (EDT)
+[debug] [2017-10-09T19:41:31.159Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-09T19:41:31.174Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-09T19:41:31.174Z] > authorizing via signed-in user
+[debug] [2017-10-09T19:41:31.177Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-10-09T19:41:31.177Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/QwF-LjIwu0HyKHib9ngK_tpaBKLjTgehskGUB57OUqE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Oct 09 2017 15:41:31 GMT-0400 (EDT)
+[debug] [2017-10-09T19:41:31.406Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-09T19:41:31.415Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tresume-cc3f9  
+ Mon Oct 09 2017 15:41:31 GMT-0400 (EDT)
+[debug] [2017-10-09T19:41:31.870Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-09T19:41:31.871Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tresume-cc3f9/tokens  
+ Mon Oct 09 2017 15:41:31 GMT-0400 (EDT)
+[debug] [2017-10-09T19:41:33.883Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/zatl/Documents/GitHub/friendlypix-web'...
+[info] 
+[debug] [2017-10-09T19:41:33.887Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/tresume-cc3f9  
+ Mon Oct 09 2017 15:41:33 GMT-0400 (EDT)
+[debug] [2017-10-09T19:41:34.228Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-09T19:41:34.229Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/928326825336/clients/_:getWebAppConfig  
+ Mon Oct 09 2017 15:41:34 GMT-0400 (EDT)
+[debug] [2017-10-09T19:41:34.666Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
