@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Setup Suite", 
+        "tests": [
+            {
+                "name": "Setup Test"
+            }
+        ]
+    }, 
+    {
+        "name": "Built-in Explorer Suite", 
+        "tests": [
+            {
+                "name": "Built-in Explorer Test"
+            }
+        ]
+    }, 
+    {
+        "name": "Teardown Suite", 
+        "tests": [
+            {
+                "name": "Teardown Test"
+            }
+        ]
+    }
+]
